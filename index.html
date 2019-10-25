@@ -1,11 +1,14 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <title>My Resume</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/index.css">
 
   <!--[if lt IE 9]>
@@ -13,7 +16,83 @@
   <![endif]-->
 </head>
 
-<body>
-  <h1>My Resume</h1>
-</body>
+<div class="wrapper">
+  <header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <section class="intro">
+    <img src="assets/main.jpg" alt="A LAPTOP WITH SOME CODE ON IT" class="mainimage">
+    <h1>Martin Pineappleseed - Web Dev</h1>
+    <h2>Technology is my jam!</h2>
+    <p>Occasionaly I have time to work on side project, if you're interested, let me know by singing up on this site.</p>
+    <button>LETS TEAM UP</button>
+  </section>
+
+  <section class="about">
+    <div class="listenup">
+      <h2>Listen Up...</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur Nesciunt itaque, distinctio sunt labore quae voluptatibus. Ducimus incidunt tenetur cum recusandae commodi sed neque adipisci, ea iste velit perspiciatis eius accusamus?
+        . Eveniet ad ullam, officia laboriosam libero maiores earum ipsa! Corporis adipisci animi sunt quia est vero inventore mollitia ipsam, similique voluptate voluptas.</p> 
+    </div>
+
+    <div class="thelist">
+      <h3>Stuff I'm Good At:</h3>
+      <ul class="list-group">
+          <li class="list-group-item">Disc Golf</li>
+          <li class="list-group-item">Playing Videogames</li>
+          <li class="list-group-item">Creating websites</li>
+          <li class="list-group-item">Taking looong naps</li>
+          <li class="list-group-item">Flying on a toaster</li>
+      </ul>
+    </div>
+
+  </section>
+  
+  <section class="history">
+  <h2>Work History</h2>
+  <div class="table-responsive-sm">    
+  <table class="table table-striped">
+    <thead>
+      <tr class="history-colums">
+        <th scope="col">Yrs</th>
+        <th scope="col">Company</th>
+        <th scope="col">Title</th>
+        <th scope="col">Tech Used</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Apple</td>
+        <td>Software Engineer</td>
+        <td>Swift</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Microsoft</td>
+        <td>Lead Developer</td>
+        <td>All of it</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Amazon</td>
+        <td>TechLead</td>
+        <td>JavaScript</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</section>
+
+<footer>
+  <div class=thefooter>
+  <p>Copyright THELEO 2019</p>
+</div>
+</footer>
+
 </html>

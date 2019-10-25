@@ -1,1 +1,263 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+* {
+  font-size: 62.5%;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 890px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+.flexin {
+  display: flex;
+  justify-content: flex-end;
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2% 0% 2% 2%;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  header nav {
+    flex-direction: column;
+    align-items: left;
+  }
+}
+header nav a {
+  padding: 2% 0% 2% 2%;
+  text-decoration: none;
+  color: #8c959e;
+}
+.intro {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 5%;
+  background-color: #e9ecef;
+}
+@media (max-width: 500px) {
+  .intro {
+    width: 55%;
+  }
+}
+.intro .mainimage {
+  width: 40%;
+  height: 40%;
+}
+.intro h1 {
+  font-size: 2.5rem;
+  padding: 1% 0;
+  font-weight: bold;
+}
+.intro h2 {
+  padding-bottom: 3% ;
+  border-bottom: 1px solid gray;
+}
+.intro p {
+  padding: 3% 0% 1% 0%;
+}
+.intro button {
+  width: 20%;
+  border: none;
+  height: 3rem;
+  background-color: #8c959e;
+  margin: 2% 0%;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  color: #ced4de;
+}
+.about {
+  margin-top: 6%;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .about {
+    flex-direction: column;
+    margin: 70px;
+  }
+  .about h3 {
+    margin-top: 50px;
+  }
+}
+.about .listenup {
+  width: 40%;
+}
+.about .listenup h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 4%;
+}
+.about .thelist {
+  width: 40%;
+}
+.about .thelist h3 {
+  margin-bottom: 4%;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.history {
+  margin-top: 5%;
+}
+.history h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1%;
+  font-weight: bold;
+}
+.history .history-colums {
+  font-weight: bold;
+}
+.thefooter {
+  width: 890px;
+  margin: 0 auto;
+  padding: 2%;
+  background-color: gray;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .thefooter {
+    width: 55%;
+    margin-left: 0px;
+  }
+}
+.thefooter p {
+  color: white;
+  font-size: 1.3rem;
+}
